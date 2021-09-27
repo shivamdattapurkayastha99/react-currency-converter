@@ -1,13 +1,21 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
-import App from './App';
+// import App from './App';
 import reportWebVitals from './reportWebVitals';
-
+import Converter from './Converter';
+function App2() {
+  return(
+    <div className="App">
+      <Converter/>
+    </div>
+  )
+  
+}
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  // <React.StrictMode>
+    <App2 />,
+  // </React.StrictMode>,
   document.getElementById('root')
 );
 
